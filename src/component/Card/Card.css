@@ -1,0 +1,22 @@
+.mainCard{
+    transition: width 5.4s ease;
+    width: 100%;
+}
+.mainCard .cardImage{
+    transition: all 5.4s ease;
+
+
+}
+
+.mainCard .cardImage ul.cardItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    transition: all 5.4s ease;
+
+}
+
+.mainCard .cardImage ul.cardItems li.cardItem{
+}

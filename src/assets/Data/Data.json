@@ -1,0 +1,233 @@
+[
+  {
+    "id": 0,
+    "filmName": "Thor: Love and Thunder",
+    "language": "English",
+    "country": "Australia",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 6.8,
+    "type": ["Comedy", "Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bWJtRW1tbW1tcGFjdk5tYW1ibGxtdm1n.jpg"
+  },
+  {
+    "id": 1,
+    "filmName": "Jurassic World Dominion",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 5.8,
+    "type": ["Fantasy", "Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bWJ2Y21qbXBtbWFjd0x3UGxtaENqbW0.jpg"
+  },
+  {
+    "id": 2,
+    "filmName": "Sonic the Hedgehog 2",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 6.6,
+    "type": ["Comedy", "Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bXZtbW12bXZtbXZjRWNhd1RwYmNOdndUdg.jpg"
+  },
+  {
+    "id": 3,
+    "filmName": "The Roundup",
+    "language": "korean",
+    "country": "korea",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.2,
+    "type": ["Crime", "Action"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bUVtVGJtbW1FbUVFY3dkVHZjTmJLUHZ3.jpg"
+  },
+  {
+    "id": 4,
+    "filmName": "Men in Hope",
+    "language": "Czech",
+    "country": "Czech",
+    "date": 2011,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.2,
+    "type": ["Comedy", "Drama", "Romance"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21ZWW9Oam11Y21qUHZVVGptRW1iUA.jpg"
+  },
+  {
+    "id": 5,
+    "filmName": "The Conjuring 2",
+    "language": "English",
+    "country": "Canada",
+    "date": 2016,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.2,
+    "type": ["Drama", "Thriller", "Horror"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21tbWJtRW1Uam1lY21tbUVtdm12YW1qbWJ2Yw.jpg"
+  },
+  {
+    "id": 6,
+    "filmName": "The Black Phone",
+    "language": "English",
+    "country": "Usa",
+    "date": 2021,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.2,
+    "type": ["Horror", "Thriller"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21tbUV2Y21tbW1tbW1lY21UZ2FtRW1tbVRtbA.jpg"
+  },
+  {
+    "id": 7,
+    "filmName": "Honor Society",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 5.7,
+    "type": ["Comedy"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212dmNtdm12dmNtam11Y3Zjd0xjbGN0d2xtYg.jpg"
+  },
+  {
+    "id": 8,
+    "filmName": "Terrifier",
+    "language": "English",
+    "country": "Usa",
+    "date": 2017,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 5.6,
+    "type": ["Horror", "Thriller"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21UbW1idmNtbW1ZdkVjdk56eGFtYm1FbXZ2dw.jpg"
+  },
+  {
+    "id": 9,
+    "filmName": "The Gray Man",
+    "language": "English",
+    "country": "Czech",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 6.6,
+    "type": ["Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bUVtVExjbXZtakVjd1RibEtQbG1JeA.jpg"
+  },
+  {
+    "id": 10,
+    "filmName": "The Umbrella Academy",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 8.0,
+    "type": ["Comedy", "Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21URW1qbW12Tm12UmNtRW1tbUxOdm1Udng.jpg"
+  },
+  {
+    "id": 11,
+    "filmName": "Sniper. The White Raven",
+    "language": "Ukrainian",
+    "country": "Ukraine",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 4.4,
+    "type": ["Drama", "War"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bUVtWUVtVGJtRUVjbUVtbklQbHdMY21J.jpg"
+  },
+  {
+    "id": 12,
+    "filmName": "Ms. Marvel",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 6.1,
+    "type": ["Comedy", "Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bUV2Y21idmN2Y21FRWN2a3RjYXhtRXZjbXo.jpg"
+  },
+  {
+    "id": 13,
+    "filmName": "The Lost City",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 6.1,
+    "type": ["Comedy", "Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY212bVl2bWptWXZtYWN4dmNhbXphbVRtbWc.jpg"
+  },
+  {
+    "id": 14,
+    "filmName": " Thor: Ragnarok",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.9,
+    "type": ["Comedy", "Action", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY3Z0TlRibXB1Y3dUR3d4bVlkVGc.jpg"
+  },
+  {
+    "id": 15,
+    "filmName": "Young Sheldon",
+    "language": "English",
+    "country": "Usa",
+    "date": 2017,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.5,
+    "type": ["Comedy"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY3Z0Tm1tRW1qbXZFY21wcGJhYWNOQnc.jpg"
+  },
+  {
+    "id": 16,
+    "filmName": "Rick and Morty",
+    "language": "English",
+    "country": "Usa",
+    "date": 2013,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 9.2,
+    "type": ["Comedy", "Animation", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21UcEV2TkVtdWNtcEd0Y1B3VEVtag.jpg"
+  },
+  {
+    "id": 17,
+    "filmName": "Once Upon a Time... In Hollywood",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.6,
+    "type": ["Comedy", "Drama"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21MY212bWptdm12bWJFY3dmVVRtbVlFdmNtSQ.jpg"
+  },
+  {
+    "id": 18,
+    "filmName": "Ghostbusters: Afterlife",
+    "language": "English",
+    "country": "Usa",
+    "date": 2021,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.1,
+    "type": ["Comedy", "Fantasy", "Adventure"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21tbWJtRW1tdk5FdmNFY2FtYmNObVB3TE5J.jpg"
+  },
+  {
+    "id": 19,
+    "filmName": "CHIPS",
+    "language": "English",
+    "country": "Usa",
+    "date": 2017,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 6.0,
+    "type": ["Comedy", "Action", "Crime"],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY3ZOVGptam1IUmNtVEVQYW12bWpjTkk.jpg"
+  },
+  {
+    "id": 20,
+    "filmName": "Harry Potter and the Sorcerer's Stone",
+    "language": "English",
+    "country": "Usa",
+    "date": 2022,
+    "quality": ["1080p", "720p", "480p", "360p", "240p"],
+    "rating": 7.6,
+    "type": ["Adventure", "Family", "Fantasy "],
+    "image": "https://i.egycdn.com/pic/WmFwZndlY21idnRjdk5IUmN4Y05wSE5ZWWc.jpg"
+  }
+]

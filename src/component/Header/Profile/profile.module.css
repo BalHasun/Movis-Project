@@ -1,0 +1,58 @@
+:root {
+    --text-color: #333333;
+    --main-color: #706161;
+    --main0-bg-color: #8EC9B8;
+    --main-active-bgcolor: #DBF0EB;
+    --main-transform: 0.4s;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.profile .profilePcs img {
+    max-width: 40px;
+    margin-left: 10px;
+}
+
+.profile a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 20px;
+    transition: all var(--main-transform);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.profile a:hover {
+    color: var(--main-color);
+    background-color: var(--main-active-bgcolor);
+
+
+}
+
+@media screen and (max-width : 992px) {
+
+    .profile {
+        padding: 0px  5px;
+    }
+
+    .profile .profilePcs img {
+        max-width: 25px;
+        margin-left: 0px;
+    }
+
+    .profile a {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .profile a:hover {
+        color: var(--main-color);
+        background-color: var(--main-active-bgcolor);
+
+
+    }
+}
