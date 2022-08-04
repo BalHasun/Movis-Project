@@ -3,33 +3,33 @@ import  './SideBarTop.css'
 import React from 'react'
 
 const SideBarInfo = [
-    { id: 1, name: "2022 Films", url: "/film/films2022" },
+    { id: 1, name: "2022 Films", url: "/films/films2022" },
     {
-        id: 2, name: "Action", url: "/film/action"
+        id: 2, name: "Action", url: "/films/action"
     },
     {
-        id: 3, name: "Adventure", url: "/film/adventure"
+        id: 3, name: "Adventure", url: "/films/adventure"
     },
     {
-        id: 4, name: "Comedy", url: "/film/comedy"
+        id: 4, name: "Comedy", url: "/films/comedy"
     },
     {
-        id: 5, name: "History", url: "/film/history"
+        id: 5, name: "History", url: "/films/history"
     },
     {
-        id: 6, name: "Horror", url: "/film/horror"
+        id: 6, name: "Horror", url: "/films/horror"
     },
     {
-        id: 7, name: "Western", url: "/film/western"
+        id: 7, name: "Western", url: "/films/western"
     },
     {
-        id: 8, name: "Animation", url: "/film/animation"
+        id: 8, name: "Animation", url: "/films/animation"
     },
     {
-        id: 9, name: "Drama", url: "/film/drama"
+        id: 9, name: "Drama", url: "/films/drama"
     },
     {
-        id: 10, name: "Family", url: "/film/family"
+        id: 10, name: "Family", url: "/films/family"
     },
 
 ]

@@ -14,6 +14,7 @@ const FilterBar = (props) => {
 
     const FilterDate = props.setDate
     const FilterLang = props.setLang
+    const FilterCoun = props.setCountry
 
 
     return (

@@ -7,7 +7,7 @@ import EmptyCard from './EmptyCard';
 
 const MainCard = (props) => {
 
-    const data = props.data;
+    const data = props.data
 
     if (data.length === 0) {
         return <EmptyCard />
@@ -15,6 +15,7 @@ const MainCard = (props) => {
 
     return (
         <div className="mainCard">
+            {props.children}
             <Card value={props.value} data={data} />
         </div>
     )

@@ -14,6 +14,7 @@ var result = Data.reduce((unique, o) => {
     }
     return unique;
 }, [])
+// console.log(result)
 
 // add last values to select elemant by map function
 const option = result.map((optionItem, index) => <option key={index} className='optionItem' value={optionItem.country}>{optionItem.country}</option>)
