@@ -1,72 +1,47 @@
-// import { useEffect, useState } from "react";
-// import styled from "styled-components";
+import { useEffect, useState } from "react";
+import styled from "styled-components";
+
+import Datas from '../../assets/Data/Data.json'
+
+import './FilterBar.css'
+
+const Select = styled.select`margin: 0px; padding: 10px;`;
+
+// sort json object by date 
+const Data = Datas.sort(function (a, b) {
+    return b.date - a.date;
+});
+
+// Find and remove duplicates
+var result = Data.reduce((unique, o) => {
+    if (!unique.some(obj => obj.date === o.date && obj.date === o.date)) {
+        unique.push(o);
+    }
+    return unique;
+}, [])
+
+// add last values to select elemant by map function
+const option = result.map((optionItem, index) => <option key={index} className='optionItem' value={optionItem.date}>{optionItem.date}</option>)
 
 
-// const SelectedDate = (props) => {
-//     const DATA = [{
-//         id: 1,
-//         name: "Kodluyoruz Istanbul React Bootcamp",
-//         limit: 10,
-//         date: new Date()
-//     },
-//     {
-//         id: 2,
-//         name: "Kodluyoruz Bursa Vue Bootcamp",
-//         limit: 0,
-//         date: new Date()
-//     },
-//     {
-//         id: 3,
-//         name: "Kodluyoruz Mersin Angular Bootcamp",
-//         limit: 5,
-//         date: new Date()
-//     },
-//     {
-//         id: 4,
-//         name: "Kodluyoruz Antalya Front-End Bootcamp",
-//         limit: 5,
-//         date: new Date()
-//     }];
+const SelectedDate = (props) => {
 
-//     const [filteredLessons, setFilteredLessons] = useState(DATA);
+    const [selected, setSelected] = useState("");
 
-//     const filterLessons = (selected) => {
-//         if (selected === "") {
-//             return setFilteredLessons(DATA);
-//         }
+    // when chang value in the select set new value 
+    useEffect(() => { props.onFilterCities(selected); }, [selected]);
 
-//         const filtered = DATA.filter(lessons => lessons.name.includes(selected));
-//         setFilteredLessons(filtered);
-//     }
+    // set selected value
+    const filterCities = (event) => { setSelected(event.target.value); }
 
+    return (
+        <div className="selectedDate">
+            <Select className="optionItems"  onChange={filterCities}>
+                <option className='optionItem' value=''>Date</option>
+                {option}
+            </Select>
+        </div>
+    )
+}
 
-//     const Select = styled.select`margin: 0px; padding: 10px;`;
-
-
-//     const [selected, setSelected] = useState("");
-
-//     useEffect((props) => {
-//         const debounceSelect = setTimeout(() => {
-//             props.onFilterCities(selected);
-//         }, 2000);
-//         return () => {
-//             clearTimeout(debounceSelect);
-//         }
-//     }, [selected]);
-
-//     const filterCities = (event) => {
-//         setSelected(event.target.value);
-//     }
-
-//     return (
-//         <Select onChange={filterCities} onFilterCities={filterLessons} >
-//             <option value="">Tumu</option>
-//             <option value="Istanbul">Istanbul</option>
-//             <option value="Mersin">Mersin</option>
-//             <option value="Bursa">Bursa</option>
-//             <option value="Kodluyoruz">Kodluyoruz</option>
-//         </Select>
-//     )
-// }
-
-// export default SelectedDate
+export default SelectedDate

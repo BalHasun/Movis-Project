@@ -1,20 +1,32 @@
-import React, { useState } from "react";
 import Search from "../Search/Search";
-import SelectedDate from "./SelectedDate";
+import SelectedCountry from "./SelectedCountry";
+import SelectedData from "./SelectedDate";
+import SelectedLang from "./SelectedLang";
+import SelectedQuality from "./SelectedQuality";
+import SelectedRating from "./SelectedRating";
+import SelectedType from "./SelectedType";
 
 
 
-const FilterBar = () => {
+const FilterBar = (props) => {
 
-    const [search, setSearch] = useState("");
-    const [selected, setSelected] = useState("");
-    const value = { search, selected, setSearch, setSelected };
+    const value = props.value
+
+    const FilterDate = props.setDate
+    const FilterLang = props.setLang
 
 
     return (
-        <div>
+        <div className="filterBar">
             <Search value={value} />
-            <SelectedDate/>
+            <div className="SelectBar" >
+                <SelectedData onFilterCities={FilterDate} />
+                <SelectedLang onFilterCities={FilterLang} />
+                <SelectedCountry onFilterCities={FilterLang} />
+                <SelectedQuality onFilterCities={FilterLang} />
+                <SelectedRating onFilterCities={FilterLang} />
+                <SelectedType onFilterCities={FilterLang} />
+            </div>
         </div>
     )
 }

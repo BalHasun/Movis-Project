@@ -24,7 +24,6 @@ const Header = () => {
                 <Navigation className="navItem" url="/series" icon="" text="series" />
                 <Navigation className="navItem" url="/about" icon="ReportsIcon" text="About" />
                 <Navigation className="navItem" url="/contact" icon="MessageIcon" text="Contact" />
-
             </nav>
             <div>
                 <Profile />

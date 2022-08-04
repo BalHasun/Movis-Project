@@ -3,6 +3,8 @@ import SearchIcon from "../../assets/icons/SearchIcon";
 import './Search.css'
 
 const Search = (props) => {
+
+  
   const { search, setSearch } = props.value;
   return (
     <div className='search'>
