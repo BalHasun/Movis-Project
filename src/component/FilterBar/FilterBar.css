@@ -1,17 +1,17 @@
 .filterBar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin: 8px 0px 0px;
 }
 
-.filterBar .SelectBar{
+.filterBar .SelectBar {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: flex-end;
-
 }
+
 .filterBar .SelectBar .selectedDate .optionItems {
     outline: none;
     color: var(--text-color);
@@ -55,4 +55,33 @@
     margin: 10px;
     border-bottom: 1px solid red;
 
+}
+
+@media screen and (max-width : 992px) {
+    .filterBar {
+        justify-content: center;
+        margin: 8px 0px 0px;
+    }
+
+    .filterBar .SelectBar {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .filterBar .SelectBar .selectedDate .optionItems {
+        margin: 2px 8px;
+        font-size: 13px;
+    }
+
+    .filterBar .SelectBar .selectedDate .optionItems .optionItem:first-child {
+        font-size: 16px;
+    }
+
+    .selectedDate .optionItems .optionItem:nth-child(odd) {
+        font-size: 16px;
+    }
+
+    .selectedDate .optionItems .optionItem:nth-child(even) {
+        font-size: 16px;
+    }
 }

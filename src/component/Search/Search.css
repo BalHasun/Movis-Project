@@ -3,7 +3,6 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 25%;
     padding: 0px 4px 0px 18px;
 
 }
@@ -37,6 +36,8 @@
 @media screen and (max-width : 992px) {
     .search {
         padding: 0px 13px 0px 11px;
+        margin-bottom: 10px;
+        width: 50%;
     }
     .search input {
         height: 30px;
@@ -55,6 +56,7 @@
 
 @media screen and (max-width : 670px) {
     .search {
+        width: 100%;
         padding: 0px 12px ;
     }
     .search input {
