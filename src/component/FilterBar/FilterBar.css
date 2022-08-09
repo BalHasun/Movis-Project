@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
     margin: 8px 0px 0px;
 }
 
@@ -55,6 +54,12 @@
     margin: 10px;
     border-bottom: 1px solid red;
 
+}
+
+@media screen and (max-width : 1225px) {
+    .filterBar {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width : 992px) {

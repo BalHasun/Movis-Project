@@ -120,6 +120,9 @@
     padding: 10px;
     text-align: center;
     width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 
