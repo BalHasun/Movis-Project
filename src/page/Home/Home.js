@@ -32,19 +32,10 @@ const Home = () => {
         return setFilteredLang(filteredLang);
     }
 
-    //  set filtered data by country 
-    const filterCountry = (selectedCountry) => {
-        if (selectedCountry === '') {
-            return setFilteredCountry(Data);
-        }
-        const filteredCountry = (Data.filter(Country => Country.country === (selectedCountry)))
-        return setFilteredCountry(filteredCountry);
-    }
-
     return (
         <>
             <MainCard value={value} data={data} >
-                <FilterBar value={value} setDate={filterDate} setLang={filterLang} setCountry={filterCountry} />
+                <FilterBar value={value} setDate={filterDate} setLang={filterLang} />
             </MainCard>
         </>
     )

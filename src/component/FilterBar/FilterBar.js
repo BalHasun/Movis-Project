@@ -1,10 +1,10 @@
 import Search from "../Search/Search";
-import SelectedCountry from "./SelectedCountry";
 import SelectedData from "./SelectedDate";
 import SelectedLang from "./SelectedLang";
-import SelectedQuality from "./SelectedQuality";
-import SelectedRating from "./SelectedRating";
-import SelectedType from "./SelectedType";
+// import SelectedCountry from "./SelectedCountry";
+// import SelectedQuality from "./SelectedQuality";
+// import SelectedRating from "./SelectedRating";
+// import SelectedType from "./SelectedType";
 
 
 
@@ -14,7 +14,6 @@ const FilterBar = (props) => {
 
     const FilterDate = props.setDate
     const FilterLang = props.setLang
-    const FilterCoun = props.setCountry
 
 
     return (
@@ -23,10 +22,10 @@ const FilterBar = (props) => {
             <div className="SelectBar" >
                 <SelectedData onFilterCities={FilterDate} />
                 <SelectedLang onFilterCities={FilterLang} />
-                <SelectedCountry onFilterCities={FilterLang} />
+                {/* <SelectedCountry onFilterCities={FilterLang} />
                 <SelectedQuality onFilterCities={FilterLang} />
                 <SelectedRating onFilterCities={FilterLang} />
-                <SelectedType onFilterCities={FilterLang} />
+                <SelectedType onFilterCities={FilterLang} /> */}
             </div>
         </div>
     )
