@@ -4,12 +4,12 @@ import './Footer.css'
 const Footer = () => {
     return (
         <footer>
-            <div class="bottom-foteer">
-                <div class="Copyright">
-                    <p class="Copyright-text">
+            <div className="bottom-foteer">
+                <div className="Copyright">
+                    <p className="Copyright-text">
                         © Copyright 2022. All rights reserved to the developer
                         <a href="#top">
-                            <span class="hight-line">
+                            <span className="hight-line">
                                 Bal Elsada Hasun
                             </span>
                         </a> .

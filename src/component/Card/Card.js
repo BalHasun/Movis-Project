@@ -6,7 +6,7 @@ import EmptyCard from './EmptyCard';
 const Card = (props) => {
 
 
-    const { search, selected } = props.value;
+    const { search } = props.value;
     const { filteredDate, filteredLang } = props.data
 
     const arr1 = filteredDate.reduce((m, o) => m.set(o.id, o), new Map()), arr2 = filteredLang.reduce((r, o) => {
